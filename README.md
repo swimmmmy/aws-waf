@@ -87,6 +87,6 @@ SELECT * FROM users WHERE id = '' OR 1=1 #'
 
 ## 기억해라
 
-- WAF는 ALB에 **반드시 연결(Associate)** 해야 실제 동작함
+- WAF는 ALB에 **반드시 연결** 해야 실제 동작함
 - ALB DNS 주소로 접속해야 WAF를 거침 (EC2 IP 직접 접속 시 WAF 우회됨)
 - AWS Managed Rules 사용
